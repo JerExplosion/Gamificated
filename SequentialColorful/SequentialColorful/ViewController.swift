@@ -34,6 +34,10 @@ final class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       initiateNewGame()
+    }
+    
+    private func initiateNewGame() {
+        actualizationbutton.setTitle("Start Game", for: .normal)
     }
 }
