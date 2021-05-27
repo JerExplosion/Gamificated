@@ -10,7 +10,9 @@ import UIKit
 final class ViewController: UIViewController {
 
     @IBOutlet var irobuttoncollections: [CirculatedButton]! {
-        didSet { }
+        didSet { irobuttoncollections = irobuttoncollections.sorted {
+            $0.tag < $1.tag
+        }}
     }
     @IBOutlet weak var actualizationbutton: UIButton! {
         didSet { }
