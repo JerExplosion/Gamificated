@@ -74,7 +74,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="l8b-jc-Tdf">
                                                 <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="160.33333333333334"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shw-jL-PdE" customClass="CirculatedButton" customModule="SequentialColorful" customModuleProvider="target">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shw-jL-PdE" customClass="CirculatedButton" customModule="SequentialColorful" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="160.33333333333334" height="160.33333333333334"/>
                                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                         <connections>
@@ -93,14 +93,14 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="c1c-FE-OlG">
                                                 <rect key="frame" x="0.0" y="171.33333333333334" width="331.33333333333331" height="160.00000000000003"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYF-14-YLg" customClass="CirculatedButton" customModule="SequentialColorful" customModuleProvider="target">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYF-14-YLg" customClass="CirculatedButton" customModule="SequentialColorful" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="160.33333333333334" height="160"/>
                                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                                                         <connections>
                                                             <action selector="circulatedcolorfulactions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n4p-0h-iFG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BX-7V-7F7" customClass="CirculatedButton" customModule="SequentialColorful" customModuleProvider="target">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BX-7V-7F7" customClass="CirculatedButton" customModule="SequentialColorful" customModuleProvider="target">
                                                         <rect key="frame" x="171.33333333333331" y="0.0" width="160" height="160"/>
                                                         <color key="backgroundColor" red="0.1853737536" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <connections>
