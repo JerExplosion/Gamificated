@@ -142,6 +142,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G8C-3B-P7D" secondAttribute="trailing" id="r8E-a1-gI3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="actualizationbutton" destination="rW6-UL-CV8" id="T9a-tH-66A"/>
+                        <outletCollection property="irobuttoncollections" destination="TOJ-Ha-Apm" collectionClass="NSMutableArray" id="F4Z-3L-bsh"/>
+                        <outletCollection property="irobuttoncollections" destination="7BX-7V-7F7" collectionClass="NSMutableArray" id="GqS-ad-zGh"/>
+                        <outletCollection property="irobuttoncollections" destination="OYF-14-YLg" collectionClass="NSMutableArray" id="T6z-Un-Qaf"/>
+                        <outletCollection property="irobuttoncollections" destination="Shw-jL-PdE" collectionClass="NSMutableArray" id="1dv-s6-bmM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

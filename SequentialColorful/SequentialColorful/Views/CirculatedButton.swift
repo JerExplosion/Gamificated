@@ -2,7 +2,7 @@
 //  CirculatedButton.swift
 //  SequentialColorful
 //
-//  Created by Jerry Ren on 5/26/21.
+//  Created by Jerry Ren on ~/~/21.
 //
 
 import UIKit
