@@ -148,6 +148,10 @@
                         <outletCollection property="irobuttoncollections" destination="7BX-7V-7F7" collectionClass="NSMutableArray" id="GqS-ad-zGh"/>
                         <outletCollection property="irobuttoncollections" destination="OYF-14-YLg" collectionClass="NSMutableArray" id="T6z-Un-Qaf"/>
                         <outletCollection property="irobuttoncollections" destination="Shw-jL-PdE" collectionClass="NSMutableArray" id="1dv-s6-bmM"/>
+                        <outletCollection property="playacollections" destination="C61-rz-zAj" collectionClass="NSMutableArray" id="EA9-Bc-1Nt"/>
+                        <outletCollection property="playacollections" destination="HZL-ic-CrG" collectionClass="NSMutableArray" id="eoW-Uu-QWv"/>
+                        <outletCollection property="scoringcollections" destination="daR-lK-WRv" collectionClass="NSMutableArray" id="DeD-63-oEx"/>
+                        <outletCollection property="scoringcollections" destination="egd-ci-85d" collectionClass="NSMutableArray" id="GHd-zJ-NHI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

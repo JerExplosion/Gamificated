@@ -15,6 +15,12 @@ final class ViewController: UIViewController {
     @IBOutlet weak var actualizationbutton: UIButton! {
         didSet { }
     }
+    @IBOutlet var scoringcollections: [UILabel]! {
+        didSet { }
+    }
+    @IBOutlet var playacollections: [UILabel]! {
+        didSet { }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
