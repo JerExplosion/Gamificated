@@ -22,6 +22,8 @@ final class ViewController: UIViewController {
         didSet { }
     }
     
+    @IBAction func circulatedcolorfulactions(_ sender: CirculatedButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
        
