@@ -118,6 +118,9 @@
                                         <rect key="frame" x="41.333333333333343" y="479.66666666666669" width="331.33333333333326" height="115.33333333333331"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                         <state key="normal" title="Actualize"/>
+                                        <connections>
+                                            <action selector="actualizationaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wtm-gJ-N5F"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="方块" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeH-8h-8BD">
                                         <rect key="frame" x="41.333333333333343" y="10.999999999999993" width="331.33333333333326" height="115.33333333333331"/>
