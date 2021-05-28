@@ -8,7 +8,13 @@
 import UIKit
 
 final class ViewController: UIViewController {
-
+    
+    private var currentPlaya: Int?
+    private var sequenceIndex: Int?
+    private var colorsequence: Array<Int>?
+    private var colorstotap: Array<Int>?
+    private var scoresDuo: Array<Int>?
+    
     @IBOutlet var irobuttoncollections: [CirculatedButton]! {
         didSet { irobuttoncollections = irobuttoncollections.sorted {
             $0.tag < $1.tag
