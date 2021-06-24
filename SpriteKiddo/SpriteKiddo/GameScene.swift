@@ -29,4 +29,10 @@ class GameScene: SKScene {
         orangeBox.position = CGPoint(x: ichiSpriteNodo.size.width/2, y: ichiSpriteNodo.size.height/2)
         ichiSpriteNodo.addChild(orangeBox)
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        ichiTexturedSpriteNodo.run(SKAction.move(to: CGPoint(x: ichiSpriteNodo.size.width, y: ichiSpriteNodo.size.height), duration: 2.2)) {
+            self.ichiTexturedSpriteNodo.position = CGPoint.zero
+        }
+    }
 }
