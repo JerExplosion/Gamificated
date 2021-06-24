@@ -34,5 +34,14 @@ class GameScene: SKScene {
         ichiTexturedSpriteNodo.run(SKAction.move(to: CGPoint(x: ichiSpriteNodo.size.width, y: ichiSpriteNodo.size.height), duration: 2.2)) {
             self.ichiTexturedSpriteNodo.position = CGPoint.zero
         }
+        if !orangeBox.hasActions() {
+            let piAction = SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 2.2)
+            let scaleAction = SKAction.scale(by: 0.77, duration: 2.2)
+//            orangeBox.run(SKAction.repeatForever(piAction))
+//            orangeBox.run(SKAction.group([piAction, scaleAction]))
+            orangeBox.run(SKAction.sequence([piAction, scaleAction]))
+        } else {
+            orangeBox.removeAllActions()
+        }
     }
 }
