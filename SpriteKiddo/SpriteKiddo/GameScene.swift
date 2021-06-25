@@ -43,5 +43,11 @@ class GameScene: SKScene {
         } else {
             orangeBox.removeAllActions()
         }
+        
+        if let _ = ichiTexturedSpriteNodo.action(forKey: "rotatedness") {
+            ichiTexturedSpriteNodo.removeAction(forKey: "rotatedness")
+        } else {
+            ichiTexturedSpriteNodo.run(SKAction.repeatForever(SKAction.rotate(byAngle: .pi, duration: 2.2)), withKey: "rotatedness")
+        }
     }
 }
