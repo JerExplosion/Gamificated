@@ -28,6 +28,17 @@ class GameScene: SKScene {
         orangeBox.zPosition = 2
         orangeBox.position = CGPoint(x: ichiSpriteNodo.size.width/2, y: ichiSpriteNodo.size.height/2)
         ichiSpriteNodo.addChild(orangeBox)
+        
+        // ephemeral-physics
+        
+        physicsWorld.gravity = CGVector(dx: -1.0, dy: -2.2)
+        physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
+        ichiTexturedSpriteNodo.physicsBody = SKPhysicsBody(circleOfRadius: ichiTexturedSpriteNodo.size.width/2)
+        ichiTexturedSpriteNodo.physicsBody?.restitution = 1.0 // bounciness adjustable
+        ichiTexturedSpriteNodo.physicsBody?.allowsRotation = false
+        
+        orangeBox.physicsBody = SKPhysicsBody(rectangleOf: orangeBox.size)
+        orangeBox.physicsBody?.restitution = 1.3
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
