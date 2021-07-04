@@ -24,6 +24,14 @@ class GameSceneTwoPointO: SKScene {
             foxyFrames.append(texturedAtlas.textureNamed(texturedNamaeci))
         }
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if foxySpriteNodo.hasActions() {
+            foxySpriteNodo.removeAllActions()
+        } else {
+            foxySpriteNodo.run(SKAction.repeatForever(SKAction.animate(with: foxyFrames, timePerFrame: 0.16)))
+        }
+    }
 }
 
 class GameScene: SKScene {
