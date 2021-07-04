@@ -7,6 +7,25 @@
 
 import SpriteKit
 
+class GameSceneTwoPointO: SKScene {
+    let foxySpriteNodo = SKSpriteNode(imageNamed: "Run0")
+    var foxyFrames = [SKTexture]()
+    
+    override func didMove(to view: SKView) {
+        foxySpriteNodo.position = CGPoint(x: frame.midX, y: frame.midY)
+        addChild(foxySpriteNodo)
+        
+        let texturedAtlas = SKTextureAtlas(named: "FoxyDoggy")
+        
+        print(texturedAtlas)
+        
+        for indexer in 0..<texturedAtlas.textureNames.count {
+             let texturedNamaeci = "Run" + String(indexer)
+            foxyFrames.append(texturedAtlas.textureNamed(texturedNamaeci))
+        }
+    }
+}
+
 class GameScene: SKScene {
     
     private let ichiNodo = SKNode()
