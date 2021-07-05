@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1ECBA7269374070004BF02 /* Boton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1ECBA6269374070004BF02 /* Boton.swift */; };
 		8FCEEED826920F6F0029E95B /* MapTileZero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEED726920F6F0029E95B /* MapTileZero.sks */; };
 		8FCEEEDB269212080029E95B /* TileSetZero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEEDA269212080029E95B /* TileSetZero.sks */; };
 		8FE4CC8C266167BF00002EEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4CC8B266167BF00002EEC /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F1ECBA6269374070004BF02 /* Boton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boton.swift; sourceTree = "<group>"; };
 		8FCEEED726920F6F0029E95B /* MapTileZero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapTileZero.sks; sourceTree = "<group>"; };
 		8FCEEEDA269212080029E95B /* TileSetZero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSetZero.sks; sourceTree = "<group>"; };
 		8FE4CC88266167BF00002EEC /* SpriteKiddo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKiddo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 				8FCEEEDA269212080029E95B /* TileSetZero.sks */,
 				8FE4CC91266167BF00002EEC /* GameScene.swift */,
 				8FE4CC93266167BF00002EEC /* GameViewController.swift */,
+				8F1ECBA6269374070004BF02 /* Boton.swift */,
 				8FE4CC95266167BF00002EEC /* Main.storyboard */,
 				8FE4CC98266167C400002EEC /* Assets.xcassets */,
 				8FE4CC9A266167C400002EEC /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1ECBA7269374070004BF02 /* Boton.swift in Sources */,
 				8FE4CC92266167BF00002EEC /* GameScene.swift in Sources */,
 				8FE4CC94266167BF00002EEC /* GameViewController.swift in Sources */,
 				8FE4CC8C266167BF00002EEC /* AppDelegate.swift in Sources */,
