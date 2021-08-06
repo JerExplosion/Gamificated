@@ -8,15 +8,14 @@
 import UIKit
 import Koloda
 
-class KolaViewController: UIViewController, KolodaViewDataSource  {
-    func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-        <#code#>
+final class KolaViewController: UIViewController, KolodaViewDataSource {
+    internal func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
+        return UIView()
     }
     
-    func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
-        <#code#>
+    internal func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
+        return Int.init()
     }
-    
     
     @IBOutlet weak var lodaView: KolodaView! {
         didSet {
