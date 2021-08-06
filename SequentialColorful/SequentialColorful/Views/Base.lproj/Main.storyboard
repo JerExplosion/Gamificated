@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Kola View Controller-->
         <scene sceneID="qbI-Ij-J38">
             <objects>
-                <viewController id="V2F-51-7cG" sceneMemberID="viewController">
+                <viewController id="V2F-51-7cG" customClass="KolaViewController" customModule="SequentialColorful" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oba-UJ-Hj8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

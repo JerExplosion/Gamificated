@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C7D243BB1FBB18C099D6DCB /* Pods_SequentialColorful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0E53FF7405318A867DC5B9 /* Pods_SequentialColorful.framework */; };
+		8F3C73F926BCDE3800FF6566 /* KolaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C73F826BCDE3800FF6566 /* KolaViewController.swift */; };
 		8FA010B0265F182600EE6ED9 /* CirculatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA010AF265F182600EE6ED9 /* CirculatedButton.swift */; };
 		8FE0B79D265D89C3005EF4B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0B79C265D89C3005EF4B8 /* AppDelegate.swift */; };
 		8FE0B79F265D89C3005EF4B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0B79E265D89C3005EF4B8 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 		5C70B33AC9E07615ECB6EA27 /* Pods-SequentialColorful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequentialColorful.release.xcconfig"; path = "Target Support Files/Pods-SequentialColorful/Pods-SequentialColorful.release.xcconfig"; sourceTree = "<group>"; };
 		6A0E53FF7405318A867DC5B9 /* Pods_SequentialColorful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SequentialColorful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6F01622DAF9A641643D8BD /* Pods-SequentialColorful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SequentialColorful.debug.xcconfig"; path = "Target Support Files/Pods-SequentialColorful/Pods-SequentialColorful.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3C73F826BCDE3800FF6566 /* KolaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolaViewController.swift; sourceTree = "<group>"; };
 		8FA010AF265F182600EE6ED9 /* CirculatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculatedButton.swift; sourceTree = "<group>"; };
 		8FE0B799265D89C3005EF4B8 /* SequentialColorful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequentialColorful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE0B79C265D89C3005EF4B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				8FE0B7A0265D89C3005EF4B8 /* ViewController.swift */,
+				8F3C73F826BCDE3800FF6566 /* KolaViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -115,7 +118,6 @@
 				7A6F01622DAF9A641643D8BD /* Pods-SequentialColorful.debug.xcconfig */,
 				5C70B33AC9E07615ECB6EA27 /* Pods-SequentialColorful.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -235,6 +237,7 @@
 			files = (
 				8FE0B7A1265D89C3005EF4B8 /* ViewController.swift in Sources */,
 				8FA010B0265F182600EE6ED9 /* CirculatedButton.swift in Sources */,
+				8F3C73F926BCDE3800FF6566 /* KolaViewController.swift in Sources */,
 				8FE0B79D265D89C3005EF4B8 /* AppDelegate.swift in Sources */,
 				8FE0B79F265D89C3005EF4B8 /* SceneDelegate.swift in Sources */,
 			);
