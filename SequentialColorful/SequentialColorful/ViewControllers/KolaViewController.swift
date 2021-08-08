@@ -8,7 +8,7 @@
 import UIKit
 import Koloda
 
-final class KolaViewController: UIViewController, KolodaViewDataSource {
+final class KolaViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate  {
     internal func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
         return UIView()
     }
@@ -20,6 +20,7 @@ final class KolaViewController: UIViewController, KolodaViewDataSource {
     @IBOutlet weak var lodaView: KolodaView! {
         didSet {
             lodaView.dataSource = self
+            lodaView.delegate = self
         }
     }
     override func viewDidLoad() {
