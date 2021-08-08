@@ -6,9 +6,15 @@
 //
 
 import UIKit
+import Koloda
 
-class KolaViewController: UIViewController {
+class KolaViewController: UIViewController  {
 
+    @IBOutlet weak var lodaView: KolodaView! {
+        didSet {
+            
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
