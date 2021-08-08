@@ -30,3 +30,9 @@ final class KolaViewController: UIViewController, KolodaViewDataSource, KolodaVi
     
     
 }
+
+extension KolaViewController {
+    internal func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
+        lodaView.reloadData()
+    }
+}
