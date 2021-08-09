@@ -16,14 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppp-wa-4Ej" customClass="KolodaView" customModule="Koloda">
-                                <rect key="frame" x="58" y="190" width="297" height="423"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ppp-wa-4Ej" customClass="KolodaView" customModule="Koloda">
+                                <rect key="frame" x="50" y="194" width="314" height="423"/>
+                                <subviews>
+                                    <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4yd-no-3Vu">
+                                        <rect key="frame" x="7" y="7" width="300" height="409"/>
+                                    </sceneKitView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="4yd-no-3Vu" secondAttribute="trailing" constant="7" id="6nQ-2g-3ZS"/>
+                                    <constraint firstAttribute="bottom" secondItem="4yd-no-3Vu" secondAttribute="bottom" constant="7" id="cMo-JL-mGJ"/>
+                                    <constraint firstItem="4yd-no-3Vu" firstAttribute="leading" secondItem="ppp-wa-4Ej" secondAttribute="leading" constant="7" id="dFn-H3-VEY"/>
+                                    <constraint firstAttribute="height" constant="423" id="k4f-gf-geY"/>
+                                    <constraint firstItem="4yd-no-3Vu" firstAttribute="top" secondItem="ppp-wa-4Ej" secondAttribute="top" constant="7" id="yhM-rC-NiR"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kJ8-EO-s3f"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ppp-wa-4Ej" firstAttribute="top" secondItem="kJ8-EO-s3f" secondAttribute="top" constant="150" id="4Pj-Nx-fwo"/>
+                            <constraint firstItem="ppp-wa-4Ej" firstAttribute="leading" secondItem="kJ8-EO-s3f" secondAttribute="leading" constant="50" id="r2r-7a-vxL"/>
+                            <constraint firstItem="kJ8-EO-s3f" firstAttribute="trailing" secondItem="ppp-wa-4Ej" secondAttribute="trailing" constant="50" id="rBr-dE-ZEC"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="lodaView" destination="ppp-wa-4Ej" id="CL9-tj-a6h"/>
@@ -31,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcd-Gg-776" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-813.04347826086962" y="-423.21428571428572"/>
+            <point key="canvasLocation" x="-642" y="-581"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
