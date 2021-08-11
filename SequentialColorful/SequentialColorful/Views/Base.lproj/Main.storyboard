@@ -43,6 +43,7 @@
                     </view>
                     <connections>
                         <outlet property="lodaView" destination="ppp-wa-4Ej" id="CL9-tj-a6h"/>
+                        <outlet property="sceneKitView" destination="4yd-no-3Vu" id="G3a-mG-Gs2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcd-Gg-776" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

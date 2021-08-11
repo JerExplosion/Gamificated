@@ -7,6 +7,7 @@
 
 import UIKit
 import Koloda
+import SceneKit
 
 final class KolaViewController: UIViewController, KolodaViewDataSource, KolodaViewDelegate  {
     internal func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
@@ -15,6 +16,11 @@ final class KolaViewController: UIViewController, KolodaViewDataSource, KolodaVi
     
     internal func kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
         return Int.init()
+    }
+    @IBOutlet weak var sceneKitView: SCNView! {
+        didSet {
+            
+        }
     }
     
     @IBOutlet weak var lodaView: KolodaView! {
