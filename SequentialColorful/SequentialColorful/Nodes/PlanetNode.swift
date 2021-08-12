@@ -8,6 +8,9 @@
 import SceneKit
 
 class PlanetNode: SCNNode {
+    override init() {
+        super.init()
+    }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
